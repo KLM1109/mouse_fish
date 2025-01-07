@@ -1,4 +1,6 @@
 import pyautogui
+pyautogui.FAILSAFE=False
+
 import time
 import random
 from pynput.mouse import Listener
