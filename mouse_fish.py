@@ -40,7 +40,7 @@ def on_scroll(x, y, dx, dy):
     print(f"鼠标滚动，位置：({x}, {y}) 滚动方向：({dx}, {dy})")
     last_event_time = time.time()  # 更新最近的鼠标事件时间
 
-def random_mouse_move(interval=0.5, resume_delay=120):
+def random_mouse_move(interval, resume_delay):
     """
     让鼠标在屏幕上随机移动，监听鼠标事件以暂停与恢复。
 
@@ -82,7 +82,7 @@ def random_mouse_move(interval=0.5, resume_delay=120):
 if __name__ == '__main__':
     try:
         # 使用示例：每次移动间隔 10 秒，监听到鼠标事件2分钟后才恢复
-        random_mouse_move(interval=1, resume_delay=120)
+        random_mouse_move(interval=10, resume_delay=120)
     except KeyboardInterrupt:
         # 如果发生 Ctrl+C 中断
         print("程序已中断")
