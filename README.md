@@ -11,3 +11,17 @@
 1.鼠标随机移动
 
 2.点击右键退出程序
+
+# 安装相关库
+
+```python
+pip install pyinstaller pyautogui pynput
+```
+
+# 使用
+
+```python
+pyinstaller -w -i pig-icon.ico -F mouse_fish.py
+```
+
+可以同时使用upx压缩exe文件
