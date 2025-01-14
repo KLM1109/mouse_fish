@@ -1,4 +1,4 @@
-# mouse_fish
+# mouse_fish.py
 
 1.鼠标随机移动
 
@@ -6,7 +6,7 @@
 
 3.点击鼠标中键退出程序
 
-# mouse_move
+# mouse_move.py
 
 1.鼠标随机移动
 
@@ -25,3 +25,10 @@ pyinstaller -w -i pig-icon.ico -F mouse_fish.py
 ```
 
 可以同时使用upx压缩exe文件
+
+
+2025.1.14
+
+# RandomMouseMoverGUI.java
+
+更新Java版本带GUI
