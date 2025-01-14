@@ -27,8 +27,8 @@ pyinstaller -w -i pig-icon.ico -F mouse_fish.py
 可以同时使用upx压缩exe文件
 
 
-2025.1.14
+
 
 # RandomMouseMoverGUI.java
 
-更新Java版本带GUI
+2025.1.14更新Java版本带GUI
